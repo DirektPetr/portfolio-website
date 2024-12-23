@@ -15,6 +15,9 @@ const config: Config = {
       backgroundImage: {
         'text-gradient': 'linear-gradient(to top, red 0%, yellow 0%)',
       },
+      extend: {
+        scale: ['group-hover']
+      },
     },
   },
   plugins: [],
